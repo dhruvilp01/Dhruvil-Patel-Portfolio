@@ -14,16 +14,18 @@ import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 // import { ProjectsComponent } from './projects/projects.component';
-import { Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 import { ReferenceComponent } from './reference/reference.component';
 
-
+// {path: '**', Component: 'PageNotFoundComponent}
+const routes: Routes = [];
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     SnotifyModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    [RouterModule.forRoot(routes, { anchorScrolling: 'enabled'})]
   ],
   declarations: [
     ProfileComponent,
@@ -39,9 +41,10 @@ import { ReferenceComponent } from './reference/reference.component';
     ReferenceComponent
 
   ],
+  exports: [RouterModule],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
-    SnotifyService,
+    SnotifyService
   ]
 })
 export class ProfileModule { }
