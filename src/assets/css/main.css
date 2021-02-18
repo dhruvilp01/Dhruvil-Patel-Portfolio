@@ -9,7 +9,7 @@
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: rgb(21, 70, 95);
+  background-color: rgb(35 35 39);
   color: #FFFFFF;
 }
 
@@ -201,7 +201,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: rgb(21, 70, 95);
+  background-color: rgb(35 35 39);
   color: #FFFFFF;
 }
 
@@ -1875,7 +1875,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #00334D !important;
+  background-color: #1d1f1f !important;
 }
 
 .bg-info {
@@ -4814,13 +4814,13 @@ img {
 /* Body */
 /* Profile Page Background Style */
 .page-header {
-  background: rgba(44, 44, 44, 0.2);
+  /* background: rgba(44, 44, 44, 0.2); */
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+  /* background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6)); */
   /* Standard syntax */
 }
 
