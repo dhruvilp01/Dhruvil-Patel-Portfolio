@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProfileService } from '../profile.service';
-import { SnotifyService } from 'ng-snotify';
-import { environment } from '../../../environments/environment';
+
 import { NgForm } from '@angular/forms';
 import { HttpHeaders } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
@@ -16,8 +14,7 @@ export class ContactComponent implements OnInit {
 
   constructor(private http: HttpClient){}
 
-  ngOnInit() {
-     }
+  ngOnInit() {}
 onSubmit(contactForm: NgForm) {
     if (contactForm.valid) {
       const email = contactForm.value;
