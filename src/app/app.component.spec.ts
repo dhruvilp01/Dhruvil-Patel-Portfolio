@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'personal-portfoli-angular'`, () => {
+  it(`should have as title 'Dhruvil-Patel-Portfolio'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('personal-portfoli-angular');
+    expect(app.title).toEqual('Dhruvil-Patel-Portfolio');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('personal-portfoli-angular app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('Dhruvil-Patel-Portfolio app is running!');
   });
 });
