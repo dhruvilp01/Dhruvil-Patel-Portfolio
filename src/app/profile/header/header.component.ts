@@ -11,8 +11,7 @@ export class HeaderComponent implements OnInit {
     private viewportScroller: ViewportScroller
   ) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 public onClick(elementId: string): void { 
       this.viewportScroller.scrollToAnchor(elementId);
   }

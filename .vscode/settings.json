@@ -1,3 +1,18 @@
 {
-    "prettier.jsxBracketSameLine": true
+    "prettier.jsxBracketSameLine": true,
+    "prettier.singleQuote": true,
+    "prettier.requirePragma": true,
+    "prettier.resolveGlobalModules": true,
+    "prettier.requireConfig": true,
+    "prettier.printWidth": 140,
+    "prettier.insertPragma": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.withNodeModules": true,
+    "prettier.useTabs": true,
+    "editor.tabSize": 4,
+    "prettier.spaceBeforeFunctionParen": true,
+    "prettier.arrayExpand": true,
+    "prettier.alignObjectProperties": true,
+    "json.maxItemsComputed": 10000
 }
