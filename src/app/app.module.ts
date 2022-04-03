@@ -24,7 +24,7 @@ const config: ExtraOptions = {
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, config),
+    RouterModule.forRoot(routes),
     ProfileModule,
     HttpClientModule,
     BrowserAnimationsModule
