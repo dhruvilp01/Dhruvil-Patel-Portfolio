@@ -15,7 +15,7 @@ const routes: Routes = [
 ];
 
 const config: ExtraOptions = {
-  useHash: false,
+  useHash: true,
 };
 
 @NgModule({
@@ -24,7 +24,7 @@ const config: ExtraOptions = {
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, config),
     ProfileModule,
     HttpClientModule,
     BrowserAnimationsModule
